@@ -107,11 +107,6 @@ li {
 #welcome-section {
     height: 100vh;
     padding-top: 20%;
-    /*background: linear-gradient(#B0C1D1, #ffffff);*/
-    /*background-color: #B0C1D1;*/
-    /*background-image: url("https://cdn.pixabay.com/photo/2014/12/06/19/24/skyline-559295_960_720.jpg");
-    background-position: center;
-    background-size: cover;*/
 }
 
 .big-letter {
@@ -122,8 +117,6 @@ li {
     min-height: 100vh;
     padding-top: 50px;
     font-size: 20px;
-    /*background: linear-gradient(#ffffff, #B0C1D1);*/
-    /*background-color: #ffffff;*/
 }
 
 #projects ul {
@@ -191,8 +184,6 @@ aside {
 #contact {
     height: 100vh;
     padding-top: 50px;
-    /*background: linear-gradient(#B0C1D1, #ffffff);*/
-    /*background-color: #B0C1D1;*/
 }
 
 #contact ul {
@@ -212,7 +203,6 @@ aside {
 }
 
 #contact button:hover {
-    /*transform: rotateY(180deg);*/
     background-color: #134092;
     color: #ffffff;
     transition: 1.5s;
