@@ -194,13 +194,12 @@ aside {
     font-size: 60px;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 50%;
     margin: 100px 20px;
     padding: 0;
     background-color: #ffffff;
     color: #134092;
     cursor: pointer;
-    transition: 1.5s;
 }
 
 .contact-link p {
@@ -213,7 +212,7 @@ aside {
 #contact button:hover {
     background-color: #134092;
     color: #ffffff;
-    transition: 1.5s;
+    transition: 1s;
 }
 
 
