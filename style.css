@@ -200,6 +200,7 @@ aside {
     background-color: #ffffff;
     color: #134092;
     cursor: pointer;
+    transition: 1s;
 }
 
 .contact-link p {
