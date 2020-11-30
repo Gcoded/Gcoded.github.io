@@ -1,158 +1,198 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Godfrey's Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <nav id="navbar">
-    <div class="container">
-        <a id="profile-link" href="https://github.com/Gcoded" target="_blank">Gcoded</a>
-
-        <a id="hamburger-menu">
-        </a>
-        <ul id="nav-list">
-            <li><a href="#welcome-section" class="nav-link">Home</a></li>
-            <li><a href="#projects" class="nav-link">Projects</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-    </div>
-    </nav>
-
-    <section id="welcome-section">
-    <div class="container">
-        <h1><span class="big-letter">G</span>ODFREY <span class="big-letter">O</span>BENG</h1>
-        <hr>
-        <p>Thanks for visiting my page!  I'm a finance professional turned web developer from Houston, Texas.</p>
-        <p>I'm dedicated to growing daily as a logical thinker, analyzing problems, and building solutions.</p>
-        <p>Check out some of my work <a href="#projects">below...</a></p>
-    </div>
-    </section>
-
-    <section id="projects">
-    <div class="container">
-        <h2>Projects</h2>
-
-        <ul>
-            <li class="project-tile">
-                <div class="front">
-                    <img src="images/Screen Shot - Twitter-clone.png" alt="Twitter-clone">
-                </div>
-                <div class="back">
-                    <a href="https://twitter-cloned.netlify.com" target="_blank"><button>Full Page</button></a>
-                    <a href="https://github.com/kyrelldixon/twitter_clone" target="_blank"><button>GitHub</button></a>
-                </div>
-                <p>Twitter Clone</p>
-            </li>
-            <li class="project-tile">
-                <div class="front">
-                    <img src="images/Screen Shot - Simon.png" alt="Simon">
-                </div>
-                <div class="back">
-                    <a href="https://codepen.io/Gcoded/full/qMWJgW/" target="_blank"><button>Full Page</button></a>
-                    <a href="https://github.com/Gcoded/fcc-simon" target="_blank"><button>GitHub</button></a>
-                </div>
-                <p>Simon Game</p>
-            </li>
-            <li class="project-tile">
-                <div class="front">
-                    <img src="images/Screen Shot - Tic-tac-toe.png" alt="Tic tac toe">
-                </div>
-                <div class="back">
-                    <a href="https://codepen.io/Gcoded/full/GxMZqK/" target="_blank"><button>Full Page</button></a>
-                    <a href="https://github.com/Gcoded/fcc-tictactoe" target="_blank"><button>GitHub</button></a>
-                </div>
-                <p>Tic Tac Toe Game</p>
-            </li>
-            <li class="project-tile">
-                <div class="front">
-                    <img src="images/Screen Shot - Calc.png" alt="Calculator">
-                </div>
-                <div class="back">
-                    <a href="https://codepen.io/Gcoded/full/dzmvgv/" target="_blank"><button>Full Page</button></a>
-                    <a href="https://github.com/Gcoded/fcc-calculator" target="_blank"><button>GitHub</button></a>
-                </div>
-                <p>Calculator</p>
-            </li>
-
-            <li class="project-tile">
-                <div class="front">
-                    <img src="images/Screen Shot - Pomodoro.png" alt="Pomodoro Clock">
-                </div>
-                <div class="back">
-                    <a href="https://codepen.io/Gcoded/full/BmzNwX/" target="_blank"><button>Full Page</button></a>
-                    <a href="https://github.com/Gcoded/fcc-pomodoro" target="_blank"><button>GitHub</button></a>
-                </div>
-                <p>Pomodoro Clock</p>
-            </li>
-            <li class="project-tile">
-                <div class="front">
-                    <img src="images/Screen Shot - Twitch.png" alt="Twitch App">
-                </div>
-                <div class="back">
-                    <a href="https://codepen.io/Gcoded/full/VWRwQB/" target="_blank"><button>Full Page</button></a>
-                    <a href="https://github.com/Gcoded/fcc-twitch" target="_blank"><button>GitHub</button></a>
-                </div>
-                <p>Twitch App</p>
-            </li>
-        </ul>
-
-        <aside>
-            <a href="https://codepen.io/Gcoded/" target="_blank">More...</a>
-        </aside>
-
-    </div>
-    </section>
-
-    <section id="contact">
-    <div class="container">
-        <h2>Contact</h2>
-
-        <ul>
-          <li>
-            <a href="https://github.com/Gcoded" target="_blank">
-                <button class="contact-link">
-                    <i class="fab fa-github"></i>
-                    <p>GitHub</p>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Godfrey's Portfolio Page" />
+        <meta name="author" content="Godfrey Obeng" />
+        <title>Godfrey's Portfolio Page</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
                 </button>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/godfreyobeng/" target="_blank">
-                <button class="contact-link">
-                    <i class="fab fa-linkedin"></i>
-                    <p>LinkedIn</p>
-                </button>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.freecodecamp.org/gcoded" target="_blank">
-                <button class="contact-link">
-                    <i class="fab fa-free-code-camp"></i>
-                    <p>freeCodeCamp</p>
-                </button>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/godfreyobeng" target="_blank">
-                <button class="contact-link">
-                    <i class="fab fa-twitter"></i>
-                    <p>Twitter</p>
-                </button>
-            </a>
-          </li>
-        </ul>
-
-    </div>
-    </section>
-
-</body>
-
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Godfrey Obeng</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Developer | Engineer</h2>
+                    <a class="btn btn-primary js-scroll-trigger" href="#projects">Projects</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">About</h2>
+                        <p class="text-white-50">
+                            I'm a finance professional and web developer from Houston, Texas.
+                            I'm dedicated to growing daily as a logical thinker, analyzing problems,
+                            and building solutions. Check out some of my work
+                            <a class="js-scroll-trigger" href="#projects">below</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="laptop-bg"></div>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container">
+                <h2 class="text-center section-title">Projects</h2>
+                <!-- Featured Project Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-8 col-lg-7">
+                        <a href="https://omaiven.com/" target="blank">
+                            <img class="img-fluid mb-3 mb-lg-0" src="images/proj-omaiven.jpg" alt="omaiven home page" />
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4><a href="https://omaiven.com/" target="blank">Omaiven Health</a></h4>
+                            <p class="text-black-50 mb-0">
+                                The new website for a healthcare tech
+                                company based in Austin, TX. The site was developed using
+                                Next.js/React and Material-UI, and is fully responsive
+                                for all screen sizes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project One Row-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6">
+                        <a href="https://twitter-cloned.netlify.app/" target="blank">
+                            <img class="img-fluid" src="images/proj-twitter-clone.jpg" alt="twitter clone home page" />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4><a href="https://twitter-cloned.netlify.app/" target="blank">Twitter Clone</a></h4>
+                                    <p class="mb-0 text-white-50">
+                                        Collaborated with another developer to build a full stack clone
+                                        of Twitter.com using React and Elixir/Phoenix. User features
+                                        include account creation, login/logout, submit/delete a tweet,
+                                        and the ability to follow/unfollow users.
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Two Row-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6">
+                        <a href="https://codepen.io/Gcoded/full/qMWJgW/" target="blank">
+                            <img class="img-fluid" src="images/proj-simon.jpg" alt="simon game" />
+                        </a>
+                    </div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4><a href="https://codepen.io/Gcoded/full/qMWJgW/" target="blank">Simon Game</a></h4>
+                                    <p class="mb-0 text-white-50">
+                                        Web version of the classic Simon game built using HTML, CSS,
+                                        JavaScript, jQuery and object-oriented programming principles.
+                                        User interaction includes buttons, lights, sounds, tracking
+                                        patterns, and a strict mode of gameplay.
+                                    </p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+        <section class="contact-section bg-black" id="contact">
+            <div class="container">
+                <h2 class="text-center text-white section-title">Contact</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <a href="https://www.linkedin.com/in/godfreyobeng/" target="blank">
+                                    <i class="fab fa-linkedin text-primary mb-2"></i>
+                                    <h4 class="text-uppercase m-0">LinkedIn</h4>
+                                </a>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">
+                                    <a href="https://www.linkedin.com/in/godfreyobeng/" target="blank">
+                                        Godfrey Obeng
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <a href="mailto:godfreyjr@gmail.com">
+                                    <i class="fas fa-envelope text-primary mb-2"></i>
+                                    <h4 class="text-uppercase m-0">Email</h4>
+                                </a>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">
+                                    <a href="mailto:godfreyjr@gmail.com">
+                                        godfreyjr@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://twitter.com/godfreyobeng" target="blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="mx-2" href="https://www.facebook.com/profile.php?id=7922696" target="blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="mx-2" href="https://github.com/gcoded" target="blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="mx-2" href="https://www.freecodecamp.org/gcoded" target="blank">
+                        <i class="fab fa-free-code-camp"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Godfrey Obeng 2020</div></footer>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
